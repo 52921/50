@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+#game-container {
+    text-align: center;
+    border: 2px solid #333;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#gameCanvas {
+    background-color: skyblue; /* Represents the sky/track background */
+}
+
+#speedo-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.speedo {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+#attribution {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
